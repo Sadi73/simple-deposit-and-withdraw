@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DepositAndWithdraw</title>
+    <link rel="stylesheet" href="styles/nextPage.css">
+</head>
+
+<body>
+    <header>
+        <h1>Let's Get Some <span id="money">Mooooooooney!!!!!!!!!!</span> </h1>
+
+    </header>
+
+    <section id="deposit-withdraw-balance">
+        <div id="item-1">
+            <h3>Deposit</h3>
+            <h2>$<span id="show-deposit">00</span> </h2>
+        </div>
+        <div id="item-2">
+            <h3>Withdraw</h3>
+            <h2>$<span id="previous-withdraw">00</span> </h2>
+        </div>
+        <div id="item-3">
+            <h3>Balance</h3>
+            <h2>$<span id="balance">5500</span> </h2>
+        </div>
+
+    </section>
+
+    <section id="deposit-withdraw">
+        <div id="item-1">
+            <div>
+                <h3>Please Deposit</h3>
+                <input id="deposit-field" type="text" placeholder="Enter Deposit Amount" >
+                <button id="deposit-button">Deposit</button>
+            </div>
+        </div>
+        <div id="item-2">
+           <div>
+            <h3>Please Withdraw</h3>
+            <input id="withdraw-field" type="text" placeholder="Enter Withdraw Amount">
+            <button id="withdraw-button">Withdraw</button>
+           </div>
+        </div>
+
+
+    </section>
+
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
+
+
+</body>
+
+</html>

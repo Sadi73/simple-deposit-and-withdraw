@@ -1,0 +1,93 @@
+header {
+    text-align: center;
+}
+
+#money {
+    color: purple;
+}
+
+#deposit-withdraw-balance {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#deposit-withdraw-balance #item-1 {
+    background-color: lightgreen;
+    width: 30%;
+}
+
+#deposit-withdraw-balance #item-2 {
+    background-color: lightcoral;
+    width: 30%;
+}
+
+#deposit-withdraw-balance #item-3 {
+    background-color: yellowgreen;
+    width: 30%;
+}
+
+#deposit-withdraw {
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+#item-1, #item-2, #item-3{
+    border-radius: 10px;
+}
+
+#deposit-withdraw #item-1 {
+    background-color: cadetblue;
+    width: 48%;
+    padding: 20px;
+    
+}
+
+#deposit-withdraw #item-2 {
+    background-color:aquamarine;
+    width: 48%;
+    padding: 20px;
+}
+#deposit-withdraw #item-1, #deposit-withdraw #item-2{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    padding:10px;
+    border-radius: 5px;
+    border: 0;
+}
+button{
+    background-color:crimson;
+    color: antiquewhite;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:  rgb(224, 25, 224);
+}
+
+@media screen and (max-width: 576px) {
+    #deposit-withdraw-balance, #deposit-withdraw{
+        flex-direction: column;
+    }
+
+    #deposit-withdraw-balance #item-1, #deposit-withdraw-balance #item-2,#deposit-withdraw-balance #item-3{
+        width: 100%;
+    }
+    
+    #deposit-withdraw #item-1, #deposit-withdraw #item-2{
+        width: 100%;
+    }
+}
